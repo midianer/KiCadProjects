@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name analog_supply_V1.0)(type Legacy)(uri ${KIPRJMOD}/analog_supply_V1.0.lib)(options "")(descr ""))
+  (lib (name iblogo)(type Legacy)(uri ${LOCALREPO}/ibgk-lib/iblogo.lib)(options "")(descr ""))
+)

@@ -1,0 +1,6 @@
+(fp_lib_table
+  (lib (name dds9833)(type KiCad)(uri ${KIPRJMOD}/dds9833.pretty)(options "")(descr ""))
+  (lib (name Arduino)(type KiCad)(uri /home/guenter/KiCadProjekte/privat/library/kicad-lib-arduino/Arduino.pretty)(options "")(descr ""))
+  (lib (name dds9833_backup)(type KiCad)(uri /home/guenter/KiCadProjekte/privat/dds9833/dds9833_backup.pretty)(options "")(descr ""))
+  (lib (name ib_gk-lib)(type KiCad)(uri ${LOCALREPO}/ibgk-lib/ib_gk-lib.pretty)(options "")(descr ""))
+)

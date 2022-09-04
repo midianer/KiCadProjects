@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name logo)(type Legacy)(uri ${KIPRJMOD}/../library/ibgk-lib/iblogo.lib)(options "")(descr ""))
+)

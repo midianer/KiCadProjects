@@ -1,0 +1,18 @@
+
+
+
+meld amp_supply_hv_ctrlp.kicad_pcb test.kicad_pcb
+
+python3 scripts/footp_ref.py amp_supply_hv_ctrlp.kicad_pcb
+
+python3 ../scripts/footp_ref.py amp_supply_hv_ctrlp.kicad_pcb 600000 150000
+
+meld amp_supply_hv_ctrlp.kicad_pcb test.kicad_pcb 
+
+# cp test.kicad_pcb amp_supply_hv_ctrlp.kicad_pcb
+# cp test.kicad_pcb amp_supply_hv_ctrlp.kicad_pcb
+
+
+#meld /media/guenter/e2f635ed-b259-42b1-a74a-a11918905714/Kicad6Projekte/amp_supply_hv ~/rstest/KiCadProjekte/privat/amp_supply_hv
+
+

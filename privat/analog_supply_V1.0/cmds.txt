@@ -1,0 +1,1 @@
+python3 ../scripts/plot_pdf5.py analog_supply_V1.0.kicad_pcb

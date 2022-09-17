@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name rolladen_relais-eagle-import)(type Legacy)(uri ${KIPRJMOD}/rolladen_relais-eagle-import.lib)(options "")(descr ""))
+)

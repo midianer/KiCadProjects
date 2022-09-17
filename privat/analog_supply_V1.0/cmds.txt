@@ -1,1 +1,20 @@
 python3 ../scripts/plot_pdf5.py analog_supply_V1.0.kicad_pcb
+
+
+
+#####################################
+
+11:48 $ pwd
+cd ~/KiCadProjekte/privat/scripts
+✔ ~/KiCadProjekte/privat/scripts [main|✚ 1…13] 
+11:49 $ 
+
+python3 csv2reicheltcsv.py ../analog_supply_V1.0/analog_supply_V1.0.csv 
+
+
+meld ~/KiCadProjekte/privat/analog_supply_V1.0/analog_supply_V1.0.csv ~/KiCadProjekte/privat/analog_supply_V1.0/order_im.csv  ~/KiCadProjekte/privat/analog_supply_V1.0/order.csv  &
+
+
+meld ~/KiCadProjekte/privat/analog_supply_V1.0/analog_supply_V1.0.csv ~/KiCadProjekte/privat/analog_supply_V1.0/order_im.csv  &
+meld  ~/KiCadProjekte/privat/analog_supply_V1.0/order_im.csv  ~/KiCadProjekte/privat/analog_supply_V1.0/order.csv  &
+

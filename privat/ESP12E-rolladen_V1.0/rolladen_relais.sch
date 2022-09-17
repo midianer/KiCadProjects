@@ -1,0 +1,1020 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr User 13615 9056
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	9900 2000 11300 2000
+Wire Wire Line
+	9900 1600 9900 2000
+Wire Wire Line
+	11300 2000 11300 1700
+Wire Wire Line
+	9400 1400 9600 1400
+Wire Wire Line
+	9600 1400 9600 2000
+Wire Wire Line
+	9600 2000 9900 2000
+Wire Wire Line
+	11300 2000 12000 2000
+Wire Wire Line
+	12000 2000 12000 1800
+Connection ~ 9900 2000
+Connection ~ 11300 2000
+Text Label 9900 2000 0    10   ~ 0
+GND
+Wire Wire Line
+	9300 5100 9300 5000
+Text Label 9300 5100 0    10   ~ 0
+GND
+Wire Wire Line
+	9300 7500 9300 7400
+Text Label 9300 7500 0    10   ~ 0
+GND
+Wire Wire Line
+	8300 5500 8300 5400
+Text Label 8300 5500 0    10   ~ 0
+GND
+Wire Wire Line
+	8300 7900 8300 7800
+Text Label 8300 7900 0    10   ~ 0
+GND
+Wire Wire Line
+	3000 3900 3300 3900
+Text Label 3000 3900 0    10   ~ 0
+GND
+Wire Wire Line
+	5300 2900 3700 2900
+Text Label 5300 2900 0    10   ~ 0
+GND
+Wire Wire Line
+	4200 3800 4300 3800
+Text Label 4200 3800 0    10   ~ 0
+GND
+Wire Wire Line
+	9900 900  10200 900 
+Wire Wire Line
+	10200 900  10500 900 
+Wire Wire Line
+	9900 1300 9900 900 
+Wire Wire Line
+	10900 1400 10200 1400
+Wire Wire Line
+	10200 1400 10200 900 
+Wire Wire Line
+	9400 1200 9600 1200
+Wire Wire Line
+	9600 1200 9600 900 
+Wire Wire Line
+	9600 900  9900 900 
+Connection ~ 9900 900 
+Connection ~ 10200 900 
+Text Label 9900 900  0    10   ~ 0
++5V
+Wire Wire Line
+	9300 3500 9300 3800
+Wire Wire Line
+	8800 4000 8800 3800
+Wire Wire Line
+	8800 3800 9300 3800
+Wire Wire Line
+	9300 3800 9300 3900
+Connection ~ 9300 3800
+Text Label 9300 3500 0    10   ~ 0
++5V
+Wire Wire Line
+	9300 5900 9300 6200
+Wire Wire Line
+	8800 6400 8800 6200
+Wire Wire Line
+	8800 6200 9300 6200
+Wire Wire Line
+	9300 6200 9300 6300
+Connection ~ 9300 6200
+Text Label 9300 5900 0    10   ~ 0
++5V
+Wire Wire Line
+	8100 7000 8300 7000
+Wire Wire Line
+	8300 7000 8300 6700
+Text Label 8100 7000 0    10   ~ 0
++5V
+Wire Wire Line
+	8100 4600 8300 4600
+Wire Wire Line
+	8300 4600 8300 4400
+Text Label 8100 4600 0    10   ~ 0
++5V
+Wire Wire Line
+	9300 4500 9300 4600
+Wire Wire Line
+	9300 4500 8800 4500
+Wire Wire Line
+	8800 4500 8800 4200
+Wire Wire Line
+	9300 4300 9300 4500
+Connection ~ 9300 4500
+Wire Wire Line
+	9000 4800 9100 4800
+Wire Wire Line
+	9300 6900 9300 7000
+Wire Wire Line
+	9300 6900 8800 6900
+Wire Wire Line
+	8800 6900 8800 6600
+Wire Wire Line
+	9300 6900 9300 6700
+Connection ~ 9300 6900
+Wire Wire Line
+	8900 7200 9100 7200
+Wire Wire Line
+	6400 4800 900  4800
+Wire Wire Line
+	900  4800 900  3700
+Wire Wire Line
+	900  3700 1700 3700
+Wire Wire Line
+	6600 1200 8400 1200
+Text Label 7100 1200 0    70   ~ 0
+L1
+Wire Wire Line
+	9900 3800 9900 3500
+Wire Wire Line
+	10900 3900 10900 3800
+Wire Wire Line
+	10900 3800 9900 3800
+Wire Wire Line
+	9900 3800 9900 3900
+Text Label 9900 3700 0    70   ~ 0
+L1
+Connection ~ 9900 3800
+Wire Wire Line
+	8400 1400 6600 1400
+Text Label 7100 1400 0    70   ~ 0
+L2
+Wire Wire Line
+	11000 7900 10400 7900
+Text Label 10700 7900 0    70   ~ 0
+L2
+Wire Wire Line
+	6600 1900 7000 1900
+Text Label 6800 1900 0    70   ~ 0
+PE
+Wire Wire Line
+	10400 8100 11000 8100
+Text Label 10700 8100 0    70   ~ 0
+PE
+Wire Wire Line
+	9900 5100 9900 6300
+Wire Wire Line
+	10900 4800 10900 5100
+Wire Wire Line
+	10900 5100 9900 5100
+Wire Wire Line
+	9900 5100 9900 4700
+Wire Wire Line
+	9900 4700 10000 4700
+Wire Wire Line
+	10000 4700 10000 4300
+Text Label 10100 5100 0    70   ~ 0
+SW1
+Connection ~ 9900 5100
+Wire Wire Line
+	9800 8100 9800 7500
+Wire Wire Line
+	11000 7500 9800 7500
+Wire Wire Line
+	9800 7500 9800 6700
+Connection ~ 9800 7500
+Text Label 10300 7500 0    70   ~ 0
+SW2
+Wire Wire Line
+	10000 7700 10000 7900
+Wire Wire Line
+	11000 7700 10000 7700
+Wire Wire Line
+	10000 7700 10000 6700
+Connection ~ 10000 7700
+Text Label 10300 7700 0    70   ~ 0
+SW3
+Wire Wire Line
+	10900 4300 10900 4500
+Wire Wire Line
+	5400 5200 5400 7200
+Wire Wire Line
+	6500 7200 5400 7200
+Wire Wire Line
+	5400 5200 700  5200
+Wire Wire Line
+	700  5200 700  3600
+Wire Wire Line
+	700  3600 1700 3600
+Wire Wire Line
+	6900 7200 7400 7200
+Wire Wire Line
+	8500 7200 8300 7200
+Wire Wire Line
+	8300 7200 8100 7200
+Wire Wire Line
+	8300 7400 8300 7200
+Connection ~ 8300 7200
+Wire Wire Line
+	8600 4800 8300 4800
+Wire Wire Line
+	8300 4800 8100 4800
+Wire Wire Line
+	8300 5000 8300 4800
+Connection ~ 8300 4800
+Wire Wire Line
+	6800 4800 7400 4800
+Wire Wire Line
+	7400 4600 7200 4600
+Wire Wire Line
+	7200 4600 7200 4400
+Text Label 7400 4600 0    10   ~ 0
++3V3
+Wire Wire Line
+	7400 7000 7200 7000
+Wire Wire Line
+	7200 7000 7200 6800
+Text Label 7400 7000 0    10   ~ 0
++3V3
+Wire Wire Line
+	11700 1400 12000 1400
+Wire Wire Line
+	12000 1400 12400 1400
+Wire Wire Line
+	12000 1500 12000 1400
+Connection ~ 12000 1400
+Text Label 11700 1400 0    10   ~ 0
++3V3
+Wire Wire Line
+	1700 3900 1300 3900
+Text Label 1700 3900 0    10   ~ 0
++3V3
+Wire Wire Line
+	1400 2500 1400 2300
+Text Label 1400 2500 0    10   ~ 0
++3V3
+Wire Wire Line
+	1000 2500 1000 2300
+Text Label 1000 2500 0    10   ~ 0
++3V3
+Wire Wire Line
+	3400 1700 3400 1600
+Text Label 3400 1700 0    10   ~ 0
++3V3
+Wire Wire Line
+	3100 1600 3100 1700
+Text Label 3100 1600 0    10   ~ 0
++3V3
+Wire Wire Line
+	1700 3200 1600 3200
+Wire Wire Line
+	1600 3200 1400 3200
+Wire Wire Line
+	1400 3200 1400 2900
+Wire Wire Line
+	5300 2700 1600 2700
+Wire Wire Line
+	1600 2700 1600 3200
+Connection ~ 1600 3200
+Wire Wire Line
+	3000 3200 3200 3200
+Wire Wire Line
+	3200 3200 3200 2400
+Wire Wire Line
+	4500 2400 3200 2400
+Wire Wire Line
+	3300 2500 3300 3300
+Wire Wire Line
+	3300 3300 3000 3300
+Wire Wire Line
+	3800 2500 3300 2500
+Wire Wire Line
+	3000 3600 3400 3600
+Wire Wire Line
+	3400 3600 3400 2600
+Wire Wire Line
+	3400 2600 5300 2600
+Wire Wire Line
+	3400 2100 3400 2600
+Connection ~ 3400 2600
+Wire Wire Line
+	1700 3400 1000 3400
+Wire Wire Line
+	1000 3400 1000 2900
+Wire Wire Line
+	4900 2400 5300 2400
+Wire Wire Line
+	4200 2500 5300 2500
+Wire Wire Line
+	3000 3800 3800 3800
+Wire Wire Line
+	3100 2100 3100 3700
+Wire Wire Line
+	3100 3700 3000 3700
+$Comp
+L rolladen_relais-eagle-import:MOUNT-HOLE3.2 H1
+U 1 1 54E7B095
+P 6200 7500
+F 0 "H1" H 6280 7523 59  0000 L BNN
+F 1 "MOUNT-HOLE3.2" H 6280 7403 59  0000 L BNN
+F 2 "rolladen_relais:3,2" H 6200 7500 50  0001 C CNN
+F 3 "" H 6200 7500 50  0001 C CNN
+	1    6200 7500
+	1    0    0    -1  
+$EndComp
+$Comp
+L rolladen_relais-eagle-import:MOUNT-HOLE3.2 H2
+U 1 1 FFEB2954
+P 6200 7700
+F 0 "H2" H 6280 7723 59  0000 L BNN
+F 1 "MOUNT-HOLE3.2" H 6280 7603 59  0000 L BNN
+F 2 "rolladen_relais:3,2" H 6200 7700 50  0001 C CNN
+F 3 "" H 6200 7700 50  0001 C CNN
+	1    6200 7700
+	1    0    0    -1  
+$EndComp
+$Comp
+L rolladen_relais-eagle-import:MOUNT-HOLE3.2 H3
+U 1 1 CAE5E1D2
+P 6200 7900
+F 0 "H3" H 6280 7923 59  0000 L BNN
+F 1 "MOUNT-HOLE3.2" H 6280 7803 59  0000 L BNN
+F 2 "rolladen_relais:3,2" H 6200 7900 50  0001 C CNN
+F 3 "" H 6200 7900 50  0001 C CNN
+	1    6200 7900
+	1    0    0    -1  
+$EndComp
+$Comp
+L rolladen_relais-eagle-import:MOUNT-HOLE3.2 H4
+U 1 1 8E35FD77
+P 6200 8100
+F 0 "H4" H 6280 8123 59  0000 L BNN
+F 1 "MOUNT-HOLE3.2" H 6280 8003 59  0000 L BNN
+F 2 "rolladen_relais:3,2" H 6200 8100 50  0001 C CNN
+F 3 "" H 6200 8100 50  0001 C CNN
+	1    6200 8100
+	1    0    0    -1  
+$EndComp
+$Comp
+L rolladen_relais-eagle-import:+5V #P+06
+U 1 1 B0F39303
+P 10600 900
+F 0 "#P+06" H 10600 900 50  0001 C CNN
+F 1 "+5V" V 10500 700 59  0000 L BNN
+F 2 "" H 10600 900 50  0001 C CNN
+F 3 "" H 10600 900 50  0001 C CNN
+	1    10600 900 
+	0    1    1    0   
+$EndComp
+$Comp
+L rolladen_relais-eagle-import:GND #GND03
+U 1 1 7679BDCC
+P 11300 2100
+F 0 "#GND03" H 11300 2100 50  0001 C CNN
+F 1 "GND" H 11200 2000 59  0000 L BNN
+F 2 "" H 11300 2100 50  0001 C CNN
+F 3 "" H 11300 2100 50  0001 C CNN
+	1    11300 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L rolladen_relais-eagle-import:GND #GND04
+U 1 1 D896219B
+P 3600 2900
+F 0 "#GND04" H 3600 2900 50  0001 C CNN
+F 1 "GND" H 3500 2800 59  0000 L BNN
+F 2 "" H 3600 2900 50  0001 C CNN
+F 3 "" H 3600 2900 50  0001 C CNN
+	1    3600 2900
+	0    1    1    0   
+$EndComp
+$Comp
+L rolladen_relais-eagle-import:RESISTOR_1_4W R9
+U 1 1 542807F7
+P 8800 4800
+F 0 "R9" H 8650 4859 59  0000 L BNN
+F 1 "510R" H 8650 4670 59  0000 L BNN
+F 2 "rolladen_relais:R1206" H 8800 4800 50  0001 C CNN
+F 3 "" H 8800 4800 50  0001 C CNN
+	1    8800 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L rolladen_relais-eagle-import:GND #GND05
+U 1 1 EF27308A
+P 9300 5200
+F 0 "#GND05" H 9300 5200 50  0001 C CNN
+F 1 "GND" H 9200 5100 59  0000 L BNN
+F 2 "" H 9300 5200 50  0001 C CNN
+F 3 "" H 9300 5200 50  0001 C CNN
+	1    9300 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L rolladen_relais-eagle-import:1N41481N4148-DO35_4 D1
+U 1 1 8A755ED4
+P 8800 4100
+F 0 "D1" H 8900 4119 59  0000 L BNN
+F 1 "1N4148" H 8900 4009 59  0000 L BNN
+F 2 "rolladen_relais:1N4148-DO35_4" H 8800 4100 50  0001 C CNN
+F 3 "" H 8800 4100 50  0001 C CNN
+	1    8800 4100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L rolladen_relais-eagle-import:RESISTOR_1_4W R2
+U 1 1 8876AAE0
+P 8700 7200
+F 0 "R2" H 8550 7259 59  0000 L BNN
+F 1 "510R" H 8550 7070 59  0000 L BNN
+F 2 "rolladen_relais:R1206" H 8700 7200 50  0001 C CNN
+F 3 "" H 8700 7200 50  0001 C CNN
+	1    8700 7200
+	1    0    0    -1  
+$EndComp
+$Comp
+L rolladen_relais-eagle-import:GND #GND06
+U 1 1 A07C0193
+P 9300 7600
+F 0 "#GND06" H 9300 7600 50  0001 C CNN
+F 1 "GND" H 9200 7500 59  0000 L BNN
+F 2 "" H 9300 7600 50  0001 C CNN
+F 3 "" H 9300 7600 50  0001 C CNN
+	1    9300 7600
+	1    0    0    -1  
+$EndComp
+$Comp
+L rolladen_relais-eagle-import:1N41481N4148-DO35_4 D2
+U 1 1 2726CE93
+P 8800 6500
+F 0 "D2" H 8900 6519 59  0000 L BNN
+F 1 "1N4148" H 8900 6409 59  0000 L BNN
+F 2 "rolladen_relais:1N4148-DO35_4" H 8800 6500 50  0001 C CNN
+F 3 "" H 8800 6500 50  0001 C CNN
+	1    8800 6500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L rolladen_relais-eagle-import:MKDSN1,5_3-5,08 X3
+U 1 1 03A3F618
+P 6500 1900
+F 0 "X3" H 6620 1865 59  0000 L BNN
+F 1 "MKDSN1,5_3-5,08" H 6400 1755 59  0001 L BNN
+F 2 "rolladen_relais:MKDSN1,5_3-5,08" H 6500 1900 50  0001 C CNN
+F 3 "" H 6500 1900 50  0001 C CNN
+	1    6500 1900
+	-1   0    0    1   
+$EndComp
+$Comp
+L rolladen_relais-eagle-import:MKDSN1,5_3-5,08 X3
+U 2 1 03A3F614
+P 6500 1400
+F 0 "X3" H 6620 1365 59  0000 L BNN
+F 1 "MKDSN1,5_3-5,08" H 6400 1255 59  0001 L BNN
+F 2 "rolladen_relais:MKDSN1,5_3-5,08" H 6500 1400 50  0001 C CNN
+F 3 "" H 6500 1400 50  0001 C CNN
+	2    6500 1400
+	-1   0    0    1   
+$EndComp
+$Comp
+L rolladen_relais-eagle-import:MKDSN1,5_3-5,08 X3
+U 3 1 03A3F610
+P 6500 1200
+F 0 "X3" H 6620 1165 59  0000 L BNN
+F 1 "MKDSN1,5_3-5,08" H 6400 1055 59  0001 L BNN
+F 2 "rolladen_relais:MKDSN1,5_3-5,08" H 6500 1200 50  0001 C CNN
+F 3 "" H 6500 1200 50  0001 C CNN
+	3    6500 1200
+	-1   0    0    1   
+$EndComp
+$Comp
+L rolladen_relais-eagle-import:MKDSN1,5_4-5,08 X4
+U 1 1 16444AAD
+P 11100 7500
+F 0 "X4" H 11220 7465 59  0000 L BNN
+F 1 "MKDSN1,5_4-5,08" H 11000 7355 59  0001 L BNN
+F 2 "rolladen_relais:MKDSN1,5_4-5,08" H 11100 7500 50  0001 C CNN
+F 3 "" H 11100 7500 50  0001 C CNN
+	1    11100 7500
+	1    0    0    -1  
+$EndComp
+$Comp
+L rolladen_relais-eagle-import:MKDSN1,5_4-5,08 X4
+U 2 1 16444AA1
+P 11100 7700
+F 0 "X4" H 11220 7665 59  0000 L BNN
+F 1 "MKDSN1,5_4-5,08" H 11000 7555 59  0001 L BNN
+F 2 "rolladen_relais:MKDSN1,5_4-5,08" H 11100 7700 50  0001 C CNN
+F 3 "" H 11100 7700 50  0001 C CNN
+	2    11100 7700
+	1    0    0    -1  
+$EndComp
+$Comp
+L rolladen_relais-eagle-import:MKDSN1,5_4-5,08 X4
+U 3 1 16444AA5
+P 11100 7900
+F 0 "X4" H 11220 7865 59  0000 L BNN
+F 1 "MKDSN1,5_4-5,08" H 11000 7755 59  0001 L BNN
+F 2 "rolladen_relais:MKDSN1,5_4-5,08" H 11100 7900 50  0001 C CNN
+F 3 "" H 11100 7900 50  0001 C CNN
+	3    11100 7900
+	1    0    0    -1  
+$EndComp
+$Comp
+L rolladen_relais-eagle-import:MKDSN1,5_4-5,08 X4
+U 4 1 16444AB9
+P 11100 8100
+F 0 "X4" H 11220 8065 59  0000 L BNN
+F 1 "MKDSN1,5_4-5,08" H 11000 7955 59  0001 L BNN
+F 2 "rolladen_relais:MKDSN1,5_4-5,08" H 11100 8100 50  0001 C CNN
+F 3 "" H 11100 8100 50  0001 C CNN
+	4    11100 8100
+	1    0    0    -1  
+$EndComp
+$Comp
+L rolladen_relais-eagle-import:R-EU_0411_15 R3
+U 1 1 9D3B2993
+P 10900 4100
+F 0 "R3" H 10750 4159 59  0000 L BNN
+F 1 "R-EU_0411_15" H 10750 3970 59  0000 L BNN
+F 2 "rolladen_relais:0411_15" H 10900 4100 50  0001 C CNN
+F 3 "" H 10900 4100 50  0001 C CNN
+	1    10900 4100
+	0    1    1    0   
+$EndComp
+$Comp
+L rolladen_relais-eagle-import:C-EUC150-025X150 C7
+U 1 1 A3D5F203
+P 10900 4700
+F 0 "C7" H 10960 4715 59  0000 L BNN
+F 1 "C-EUC150-025X150" H 10960 4515 59  0000 L BNN
+F 2 "rolladen_relais:C150-054X183" H 10900 4700 50  0001 C CNN
+F 3 "" H 10900 4700 50  0001 C CNN
+	1    10900 4700
+	-1   0    0    1   
+$EndComp
+$Comp
+L rolladen_relais-eagle-import:+5V #P+02
+U 1 1 339DE9D3
+P 8300 4300
+F 0 "#P+02" H 8300 4300 50  0001 C CNN
+F 1 "+5V" V 8200 4100 59  0000 L BNN
+F 2 "" H 8300 4300 50  0001 C CNN
+F 3 "" H 8300 4300 50  0001 C CNN
+	1    8300 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L rolladen_relais-eagle-import:LM1117TO220S U1
+U 1 1 F9562130
+P 11300 1400
+F 0 "U1" H 11000 1650 59  0000 L BNN
+F 1 "LM1117TO220S" H 11000 1550 59  0000 L BNN
+F 2 "rolladen_relais:TO220S" H 11300 1400 50  0001 C CNN
+F 3 "" H 11300 1400 50  0001 C CNN
+	1    11300 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L rolladen_relais-eagle-import:+5V #P+01
+U 1 1 BCDF72C5
+P 9300 3400
+F 0 "#P+01" H 9300 3400 50  0001 C CNN
+F 1 "+5V" V 9200 3200 59  0000 L BNN
+F 2 "" H 9300 3400 50  0001 C CNN
+F 3 "" H 9300 3400 50  0001 C CNN
+	1    9300 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L rolladen_relais-eagle-import:+5V #P+03
+U 1 1 00F05DF6
+P 9300 5800
+F 0 "#P+03" H 9300 5800 50  0001 C CNN
+F 1 "+5V" V 9200 5600 59  0000 L BNN
+F 2 "" H 9300 5800 50  0001 C CNN
+F 3 "" H 9300 5800 50  0001 C CNN
+	1    9300 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L rolladen_relais-eagle-import:ESP12ESMD U2
+U 1 1 C2DEB937
+P 2400 3500
+F 0 "U2" H 1900 3900 59  0000 L BNN
+F 1 "ESP12ESMD" H 2700 2500 59  0000 L BNN
+F 2 "rolladen_relais:ESP12E-SMD" H 2400 3500 50  0001 C CNN
+F 3 "" H 2400 3500 50  0001 C CNN
+	1    2400 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L rolladen_relais-eagle-import:PC817 OK1
+U 1 1 3915DF78
+P 7800 7100
+F 0 "OK1" H 7525 7325 59  0000 L BNN
+F 1 "PC817" H 7525 6800 59  0000 L BNN
+F 2 "rolladen_relais:DIL04" H 7800 7100 50  0001 C CNN
+F 3 "" H 7800 7100 50  0001 C CNN
+	1    7800 7100
+	1    0    0    -1  
+$EndComp
+$Comp
+L rolladen_relais-eagle-import:PC817 OK2
+U 1 1 1EAA48D8
+P 7800 4700
+F 0 "OK2" H 7525 4925 59  0000 L BNN
+F 1 "PC817" H 7525 4400 59  0000 L BNN
+F 2 "rolladen_relais:DIL04" H 7800 4700 50  0001 C CNN
+F 3 "" H 7800 4700 50  0001 C CNN
+	1    7800 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L rolladen_relais-eagle-import:RESISTOR_1_4W R1
+U 1 1 C592A26F
+P 6700 7200
+F 0 "R1" H 6550 7259 59  0000 L BNN
+F 1 "330R" H 6550 7070 59  0000 L BNN
+F 2 "rolladen_relais:R1206" H 6700 7200 50  0001 C CNN
+F 3 "" H 6700 7200 50  0001 C CNN
+	1    6700 7200
+	1    0    0    -1  
+$EndComp
+$Comp
+L rolladen_relais-eagle-import:+5V #P+04
+U 1 1 A7FDB2D8
+P 8300 6600
+F 0 "#P+04" H 8300 6600 50  0001 C CNN
+F 1 "+5V" V 8200 6400 59  0000 L BNN
+F 2 "" H 8300 6600 50  0001 C CNN
+F 3 "" H 8300 6600 50  0001 C CNN
+	1    8300 6600
+	1    0    0    -1  
+$EndComp
+$Comp
+L rolladen_relais-eagle-import:RESISTOR_1_4W R4
+U 1 1 FFAAD96E
+P 8300 5200
+F 0 "R4" H 8150 5259 59  0000 L BNN
+F 1 "22K" H 8150 5070 59  0000 L BNN
+F 2 "rolladen_relais:R1206" H 8300 5200 50  0001 C CNN
+F 3 "" H 8300 5200 50  0001 C CNN
+	1    8300 5200
+	0    1    1    0   
+$EndComp
+$Comp
+L rolladen_relais-eagle-import:GND #GND01
+U 1 1 DB8695AC
+P 8300 5600
+F 0 "#GND01" H 8300 5600 50  0001 C CNN
+F 1 "GND" H 8200 5500 59  0000 L BNN
+F 2 "" H 8300 5600 50  0001 C CNN
+F 3 "" H 8300 5600 50  0001 C CNN
+	1    8300 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L rolladen_relais-eagle-import:RESISTOR_1_4W R5
+U 1 1 7B4CBD70
+P 6600 4800
+F 0 "R5" H 6450 4859 59  0000 L BNN
+F 1 "330R" H 6450 4670 59  0000 L BNN
+F 2 "rolladen_relais:R1206" H 6600 4800 50  0001 C CNN
+F 3 "" H 6600 4800 50  0001 C CNN
+	1    6600 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L rolladen_relais-eagle-import:RESISTOR_1_4W R6
+U 1 1 F19132AB
+P 8300 7600
+F 0 "R6" H 8150 7659 59  0000 L BNN
+F 1 "22K" H 8150 7470 59  0000 L BNN
+F 2 "rolladen_relais:R1206" H 8300 7600 50  0001 C CNN
+F 3 "" H 8300 7600 50  0001 C CNN
+	1    8300 7600
+	0    1    1    0   
+$EndComp
+$Comp
+L rolladen_relais-eagle-import:GND #GND02
+U 1 1 13A376EC
+P 8300 8000
+F 0 "#GND02" H 8300 8000 50  0001 C CNN
+F 1 "GND" H 8200 7900 59  0000 L BNN
+F 2 "" H 8300 8000 50  0001 C CNN
+F 3 "" H 8300 8000 50  0001 C CNN
+	1    8300 8000
+	1    0    0    -1  
+$EndComp
+$Comp
+L rolladen_relais-eagle-import:+3V3 #+3V01
+U 1 1 406B5002
+P 7200 6700
+F 0 "#+3V01" H 7200 6700 50  0001 C CNN
+F 1 "+3V3" V 7100 6500 59  0000 L BNN
+F 2 "" H 7200 6700 50  0001 C CNN
+F 3 "" H 7200 6700 50  0001 C CNN
+	1    7200 6700
+	1    0    0    -1  
+$EndComp
+$Comp
+L rolladen_relais-eagle-import:+3V3 #+3V02
+U 1 1 37D36547
+P 7200 4300
+F 0 "#+3V02" H 7200 4300 50  0001 C CNN
+F 1 "+3V3" V 7100 4100 59  0000 L BNN
+F 2 "" H 7200 4300 50  0001 C CNN
+F 3 "" H 7200 4300 50  0001 C CNN
+	1    7200 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L rolladen_relais-eagle-import:+3V3 #+3V03
+U 1 1 A56F219E
+P 12500 1400
+F 0 "#+3V03" H 12500 1400 50  0001 C CNN
+F 1 "+3V3" V 12400 1200 59  0000 L BNN
+F 2 "" H 12500 1400 50  0001 C CNN
+F 3 "" H 12500 1400 50  0001 C CNN
+	1    12500 1400
+	0    1    1    0   
+$EndComp
+$Comp
+L rolladen_relais-eagle-import:BC547 Q1
+U 1 1 7A211019
+P 9200 4800
+F 0 "Q1" H 8800 5100 59  0000 L BNN
+F 1 "BC547" H 8800 5000 59  0000 L BNN
+F 2 "rolladen_relais:TO92" H 9200 4800 50  0001 C CNN
+F 3 "" H 9200 4800 50  0001 C CNN
+	1    9200 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L rolladen_relais-eagle-import:BC547 Q2
+U 1 1 DA191B3C
+P 9200 7200
+F 0 "Q2" H 8800 7500 59  0000 L BNN
+F 1 "BC547" H 8800 7400 59  0000 L BNN
+F 2 "rolladen_relais:TO92" H 9200 7200 50  0001 C CNN
+F 3 "" H 9200 7200 50  0001 C CNN
+	1    9200 7200
+	1    0    0    -1  
+$EndComp
+$Comp
+L rolladen_relais-eagle-import:CPOL-EUE2,5-6 C1
+U 1 1 3BB99FBE
+P 9900 1400
+F 0 "C1" H 9945 1419 59  0000 L BNN
+F 1 "CPOL-EUE2,5-6" H 9945 1219 59  0000 L BNN
+F 2 "rolladen_relais:CRAD_E2,5-6" H 9900 1400 50  0001 C CNN
+F 3 "" H 9900 1400 50  0001 C CNN
+	1    9900 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L rolladen_relais-eagle-import:RESISTOR_1_4W R7
+U 1 1 0B77FC2E
+P 1400 2700
+F 0 "R7" H 1250 2759 59  0000 L BNN
+F 1 "22K" H 1250 2570 59  0000 L BNN
+F 2 "rolladen_relais:R1206" H 1400 2700 50  0001 C CNN
+F 3 "" H 1400 2700 50  0001 C CNN
+	1    1400 2700
+	0    1    1    0   
+$EndComp
+$Comp
+L rolladen_relais-eagle-import:+3V3 #+3V04
+U 1 1 E81106EE
+P 1200 3900
+F 0 "#+3V04" H 1200 3900 50  0001 C CNN
+F 1 "+3V3" V 1100 3700 59  0000 L BNN
+F 2 "" H 1200 3900 50  0001 C CNN
+F 3 "" H 1200 3900 50  0001 C CNN
+	1    1200 3900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L rolladen_relais-eagle-import:+3V3 #+3V05
+U 1 1 D30003A2
+P 1400 2200
+F 0 "#+3V05" H 1400 2200 50  0001 C CNN
+F 1 "+3V3" V 1300 2000 59  0000 L BNN
+F 2 "" H 1400 2200 50  0001 C CNN
+F 3 "" H 1400 2200 50  0001 C CNN
+	1    1400 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L rolladen_relais-eagle-import:GND #GND07
+U 1 1 9CDE76EF
+P 3400 3900
+F 0 "#GND07" H 3400 3900 50  0001 C CNN
+F 1 "GND" H 3300 3800 59  0000 L BNN
+F 2 "" H 3400 3900 50  0001 C CNN
+F 3 "" H 3400 3900 50  0001 C CNN
+	1    3400 3900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L rolladen_relais-eagle-import:PINHD-1X6 JP1
+U 1 1 2F430EF2
+P 5400 2700
+F 0 "JP1" H 5150 3125 59  0000 L BNN
+F 1 "PINHD-1X6" H 5150 2300 59  0000 L BNN
+F 2 "rolladen_relais:1X06" H 5400 2700 50  0001 C CNN
+F 3 "" H 5400 2700 50  0001 C CNN
+	1    5400 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L rolladen_relais-eagle-import:RESISTOR_1_4W R8
+U 1 1 26A6AB76
+P 1000 2700
+F 0 "R8" H 850 2759 59  0000 L BNN
+F 1 "22K" H 850 2570 59  0000 L BNN
+F 2 "rolladen_relais:R1206" H 1000 2700 50  0001 C CNN
+F 3 "" H 1000 2700 50  0001 C CNN
+	1    1000 2700
+	0    1    1    0   
+$EndComp
+$Comp
+L rolladen_relais-eagle-import:+3V3 #+3V06
+U 1 1 F50F61D1
+P 1000 2200
+F 0 "#+3V06" H 1000 2200 50  0001 C CNN
+F 1 "+3V3" V 900 2000 59  0000 L BNN
+F 2 "" H 1000 2200 50  0001 C CNN
+F 3 "" H 1000 2200 50  0001 C CNN
+	1    1000 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L rolladen_relais-eagle-import:RESISTOR_1_4W R10
+U 1 1 F08A8F35
+P 4700 2400
+F 0 "R10" H 4550 2459 59  0000 L BNN
+F 1 "2K2" H 4550 2270 59  0000 L BNN
+F 2 "rolladen_relais:R1206" H 4700 2400 50  0001 C CNN
+F 3 "" H 4700 2400 50  0001 C CNN
+	1    4700 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L rolladen_relais-eagle-import:RESISTOR_1_4W R11
+U 1 1 46A8CF56
+P 4000 2500
+F 0 "R11" H 3850 2559 59  0000 L BNN
+F 1 "2K2" H 3850 2370 59  0000 L BNN
+F 2 "rolladen_relais:R1206" H 4000 2500 50  0001 C CNN
+F 3 "" H 4000 2500 50  0001 C CNN
+	1    4000 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L rolladen_relais-eagle-import:RESISTOR_1_4W R12
+U 1 1 69FBD500
+P 3400 1900
+F 0 "R12" H 3250 1959 59  0000 L BNN
+F 1 "22K" H 3250 1770 59  0000 L BNN
+F 2 "rolladen_relais:R1206" H 3400 1900 50  0001 C CNN
+F 3 "" H 3400 1900 50  0001 C CNN
+	1    3400 1900
+	0    1    1    0   
+$EndComp
+$Comp
+L rolladen_relais-eagle-import:+3V3 #+3V07
+U 1 1 A36165E5
+P 3400 1500
+F 0 "#+3V07" H 3400 1500 50  0001 C CNN
+F 1 "+3V3" V 3300 1300 59  0000 L BNN
+F 2 "" H 3400 1500 50  0001 C CNN
+F 3 "" H 3400 1500 50  0001 C CNN
+	1    3400 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L rolladen_relais-eagle-import:RESISTOR_1_4W R13
+U 1 1 B995AF6C
+P 4000 3800
+F 0 "R13" H 3850 3859 59  0000 L BNN
+F 1 "22K" H 3850 3670 59  0000 L BNN
+F 2 "rolladen_relais:R1206" H 4000 3800 50  0001 C CNN
+F 3 "" H 4000 3800 50  0001 C CNN
+	1    4000 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L rolladen_relais-eagle-import:GND #GND08
+U 1 1 DF24F9E8
+P 4400 3800
+F 0 "#GND08" H 4400 3800 50  0001 C CNN
+F 1 "GND" H 4300 3700 59  0000 L BNN
+F 2 "" H 4400 3800 50  0001 C CNN
+F 3 "" H 4400 3800 50  0001 C CNN
+	1    4400 3800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L rolladen_relais-eagle-import:RESISTOR_1_4W R14
+U 1 1 42DAE12C
+P 3100 1900
+F 0 "R14" H 2950 1959 59  0000 L BNN
+F 1 "22K" H 2950 1770 59  0000 L BNN
+F 2 "rolladen_relais:R1206" H 3100 1900 50  0001 C CNN
+F 3 "" H 3100 1900 50  0001 C CNN
+	1    3100 1900
+	0    1    1    0   
+$EndComp
+$Comp
+L rolladen_relais-eagle-import:+3V3 #+3V08
+U 1 1 1B9F338C
+P 3100 1500
+F 0 "#+3V08" H 3100 1500 50  0001 C CNN
+F 1 "+3V3" V 3000 1300 59  0000 L BNN
+F 2 "" H 3100 1500 50  0001 C CNN
+F 3 "" H 3100 1500 50  0001 C CNN
+	1    3100 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L rolladen_relais-eagle-import:MW_IRM03MWIRM DC1
+U 1 1 2D7E9D21
+P 8900 1300
+F 0 "DC1" H 8900 1700 59  0000 C TNN
+F 1 "MW_IRM03MWIRM" H 8900 900 59  0000 C BNN
+F 2 "rolladen_relais:MW_IRM03" H 8900 1300 50  0001 C CNN
+F 3 "" H 8900 1300 50  0001 C CNN
+	1    8900 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L rolladen_relais-eagle-import:CPOL-EUE2,5-6 C2
+U 1 1 733CA19D
+P 12000 1600
+F 0 "C2" H 12045 1619 59  0000 L BNN
+F 1 "CPOL-EUE2,5-6" H 12045 1419 59  0000 L BNN
+F 2 "rolladen_relais:CRAD_E2,5-6" H 12000 1600 50  0001 C CNN
+F 3 "" H 12000 1600 50  0001 C CNN
+	1    12000 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L rolladen_relais-eagle-import:1_SPSTFTR_LYCA K2
+U 1 1 60B8F48C
+P 9500 6500
+F 0 "K2" H 9500 6500 50  0001 C CNN
+F 1 "1_SPSTFTR_LYCA" H 9350 6615 59  0001 L BNN
+F 2 "rolladen_relais:FTR_LY" H 9500 6500 50  0001 C CNN
+F 3 "" H 9500 6500 50  0001 C CNN
+	1    9500 6500
+	1    0    0    -1  
+$EndComp
+$Comp
+L rolladen_relais-eagle-import:1_SPSTFTR_LYCA K2
+U 2 1 60B8F480
+P 9500 3600
+F 0 "K2" H 9500 3600 50  0001 C CNN
+F 1 "1_SPSTFTR_LYCA" H 9350 3715 59  0001 L BNN
+F 2 "rolladen_relais:FTR_LY" H 9500 3600 50  0001 C CNN
+F 3 "" H 9500 3600 50  0001 C CNN
+	2    9500 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L rolladen_relais-eagle-import:1_SPSTFTR_LYCA K3
+U 1 1 3A891F46
+P 9500 4100
+F 0 "K3" H 9500 4100 50  0001 C CNN
+F 1 "1_SPSTFTR_LYCA" H 9350 4215 59  0001 L BNN
+F 2 "rolladen_relais:FTR_LY" H 9500 4100 50  0001 C CNN
+F 3 "" H 9500 4100 50  0001 C CNN
+	1    9500 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L rolladen_relais-eagle-import:1_SPSTFTR_LYCA K3
+U 2 1 3A891F4A
+P 11700 4800
+F 0 "K3" H 11700 4800 50  0001 C CNN
+F 1 "1_SPSTFTR_LYCA" H 11550 4915 59  0001 L BNN
+F 2 "rolladen_relais:FTR_LY" H 11700 4800 50  0001 C CNN
+F 3 "" H 11700 4800 50  0001 C CNN
+	2    11700 4800
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

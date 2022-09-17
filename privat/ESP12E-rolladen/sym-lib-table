@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name ESP12E-rolladen-eagle-import)(type Legacy)(uri ${KIPRJMOD}/ESP12E-rolladen-eagle-import.lib)(options "")(descr ""))
+)

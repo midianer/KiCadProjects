@@ -1,0 +1,397 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# rolladen_relais-eagle-import_+3V3
+#
+DEF rolladen_relais-eagle-import_+3V3 #+3V3 0 40 Y Y 1 L P
+F0 "#+3V3" 0 0 50 H I C CNN
+F1 "rolladen_relais-eagle-import_+3V3" -100 -200 59 V V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 0 0 0 0 -50 -75 N
+P 2 1 0 0 50 -75 0 0 N
+X +3V3 1 0 -100 100 U 0 0 1 0 W
+ENDDRAW
+ENDDEF
+#
+# rolladen_relais-eagle-import_+5V
+#
+DEF rolladen_relais-eagle-import_+5V #P+ 0 40 Y Y 1 L P
+F0 "#P+" 0 0 50 H I C CNN
+F1 "rolladen_relais-eagle-import_+5V" -100 -200 59 V V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 0 0 0 0 -50 -75 N
+P 2 1 0 0 50 -75 0 0 N
+X +5V 1 0 -100 100 U 0 0 1 0 W
+ENDDRAW
+ENDDEF
+#
+# rolladen_relais-eagle-import_1N41481N4148-DO35_4
+#
+DEF rolladen_relais-eagle-import_1N41481N4148-DO35_4 D 0 40 Y Y 1 L N
+F0 "D" 100 19 59 H V L BNN
+F1 "rolladen_relais-eagle-import_1N41481N4148-DO35_4" 100 -91 59 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 0 0 -50 -50 50 0 N
+P 2 1 0 0 -50 50 -50 -50 N
+P 2 1 0 0 50 0 -50 50 N
+P 2 1 0 0 50 0 50 -50 N
+P 2 1 0 0 50 50 50 0 N
+X A A -100 0 100 R 0 0 1 0 P
+X K K 100 0 100 L 0 0 1 0 P
+ENDDRAW
+ENDDEF
+#
+# rolladen_relais-eagle-import_1_SPSTFTR_LYCA
+#
+DEF rolladen_relais-eagle-import_1_SPSTFTR_LYCA K 0 40 Y Y 2 L N
+F0 "K" 0 0 50 H I C CNN
+F1 "rolladen_relais-eagle-import_1_SPSTFTR_LYCA" -150 115 59 H I L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+T 0 -150 200 59 0 1 0 >PART Normal 0 L B
+P 2 1 0 0 -400 -100 -400 100 N
+P 2 1 0 0 -400 100 -100 100 N
+P 2 1 0 0 -300 -100 -400 -100 N
+P 2 1 0 0 -300 -100 -100 100 N
+P 2 1 0 0 -100 100 0 100 N
+P 2 1 0 0 0 -100 -300 -100 N
+P 2 1 0 0 0 0 0 -100 N
+P 2 1 0 0 0 0 500 0 N
+P 2 1 0 0 0 100 0 0 N
+P 2 1 0 0 400 100 300 -100 N
+X R1 11 300 -200 100 U 50 0 1 0 P
+X S1 12 400 200 100 D 50 0 1 0 P
+X A1 14 500 -200 100 U 50 0 1 0 P
+X 1 A1 -200 200 100 D 50 0 1 0 P
+X 2 A2 -200 -200 100 U 50 0 1 0 P
+ENDDRAW
+ENDDEF
+#
+# rolladen_relais-eagle-import_BC547
+#
+DEF rolladen_relais-eagle-import_BC547 Q 0 40 Y Y 1 L N
+F0 "Q" -400 300 59 H V L BNN
+F1 "rolladen_relais-eagle-import_BC547" -400 200 59 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -10 -100 20 100 1 0 0 F
+P 2 1 0 0 50 -100 70 -60 N
+P 2 1 0 0 60 -95 90 -95 N
+P 2 1 0 0 60 -90 75 -90 N
+P 2 1 0 0 60 -80 12 -56 N
+P 2 1 0 0 70 -70 60 -90 N
+P 2 1 0 0 70 -60 100 -100 N
+P 2 1 0 0 75 -90 70 -80 N
+P 2 1 0 0 90 -95 70 -70 N
+P 2 1 0 0 100 -100 50 -100 N
+P 2 1 0 0 100 100 20 60 N
+X E 1 100 -200 100 U 0 0 1 0 P
+X B 2 -100 0 100 R 0 0 1 0 P
+X C 3 100 200 100 D 0 0 1 0 P
+ENDDRAW
+ENDDEF
+#
+# rolladen_relais-eagle-import_C-EUC150-025X150
+#
+DEF rolladen_relais-eagle-import_C-EUC150-025X150 C 0 40 Y Y 1 L N
+F0 "C" 60 15 59 H V L BNN
+F1 "rolladen_relais-eagle-import_C-EUC150-025X150" 60 -185 59 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -80 -80 80 -60 1 0 0 F
+S -80 -40 80 -20 1 0 0 F
+P 2 1 0 0 0 -100 0 -80 N
+P 2 1 0 0 0 0 0 -20 N
+X 1 1 0 100 100 D 0 0 1 0 P
+X 2 2 0 -200 100 U 0 0 1 0 P
+ENDDRAW
+ENDDEF
+#
+# rolladen_relais-eagle-import_CPOL-EUE2,5-6
+#
+DEF rolladen_relais-eagle-import_CPOL-EUE2,5-6 C 0 40 Y Y 1 L N
+F0 "C" 45 19 59 H V L BNN
+F1 "rolladen_relais-eagle-import_CPOL-EUE2,5-6" 45 -181 59 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+T 900 -23 16 42 0 1 0 + Normal 0 L B
+S -65 -100 65 -65 1 0 0 F
+P 2 1 0 0 -60 -35 60 -35 N
+P 2 1 0 0 -60 0 -60 -35 N
+P 2 1 0 0 -60 0 60 0 N
+P 2 1 0 0 60 -35 60 0 N
+X + + 0 100 100 D 0 0 1 0 P
+X - - 0 -200 100 U 0 0 1 0 P
+ENDDRAW
+ENDDEF
+#
+# rolladen_relais-eagle-import_ESP12ESMD
+#
+DEF rolladen_relais-eagle-import_ESP12ESMD U 0 40 Y Y 1 L N
+F0 "U" -500 400 59 H V L BNN
+F1 "rolladen_relais-eagle-import_ESP12ESMD" 300 -1000 59 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+T 0 500 -800 42 0 1 0 "* Can only be used on the ESP12-D_(Untested. Info from esp8266 wiki)" Normal 0 L B
+P 2 1 0 0 -500 -900 400 -900 N
+P 2 1 0 0 -500 400 -500 -900 N
+P 2 1 0 0 400 -900 400 400 N
+P 2 1 0 0 400 400 -500 400 N
+X ADC ADC -700 200 200 R 0 50 1 0 B
+X CH_PD CH_PD -700 100 200 R 0 50 1 0 B
+X CS0 CS0 -300 -1100 200 U 0 50 1 0 B
+X GND GND 600 -400 200 L 0 50 1 0 B
+X GPIO0 GPIO0 600 -100 200 L 0 50 1 0 B
+X *GPIO10 GPIO10 0 -1100 200 U 0 50 1 0 B
+X GPIO12 GPIO12 -700 -200 200 R 0 50 1 0 B
+X GPIO13 GPIO13 -700 -300 200 R 0 50 1 0 B
+X GPIO14 GPIO14 -700 -100 200 R 0 50 1 0 B
+X GPIO15 GPIO15 600 -300 200 L 0 50 1 0 B
+X GPIO16 GPIO16 -700 0 200 R 0 50 1 0 B
+X GPIO2 GPIO2 600 -200 200 L 0 50 1 0 B
+X GPIO4 GPIO4 600 0 200 L 0 50 1 0 B
+X GPIO5 GPIO5 600 100 200 L 0 50 1 0 B
+X *GPIO9 GPIO9 -100 -1100 200 U 0 50 1 0 B
+X MISO MISO -200 -1100 200 U 0 50 1 0 B
+X MOSI MOSI 100 -1100 200 U 0 50 1 0 B
+X RESET RESET -700 300 200 R 0 50 1 0 B
+X RX RXD0 600 200 200 L 0 50 1 0 B
+X SCLK SCLK 200 -1100 200 U 0 50 1 0 B
+X TX TXD0 600 300 200 L 0 50 1 0 B
+X VCC VCC -700 -400 200 R 0 50 1 0 B
+ENDDRAW
+ENDDEF
+#
+# rolladen_relais-eagle-import_GND
+#
+DEF rolladen_relais-eagle-import_GND #GND 0 40 Y Y 1 L P
+F0 "#GND" 0 0 50 H I C CNN
+F1 "rolladen_relais-eagle-import_GND" -100 -100 59 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 0 0 -75 0 75 0 N
+X GND 1 0 100 100 D 0 0 1 0 W
+ENDDRAW
+ENDDEF
+#
+# rolladen_relais-eagle-import_LM1117TO220S
+#
+DEF rolladen_relais-eagle-import_LM1117TO220S U 0 40 Y Y 1 L N
+F0 "U" -300 250 59 H V L BNN
+F1 "rolladen_relais-eagle-import_LM1117TO220S" -300 150 59 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+T 0 0 -100 59 0 1 0 GND Normal 0 C T
+P 2 1 0 0 -300 -200 300 -200 N
+P 2 1 0 0 -300 100 -300 -200 N
+P 2 1 0 0 300 -200 300 100 N
+P 2 1 0 0 300 100 -300 100 N
+X GND 1 0 -300 100 U 50 0 1 0 B
+X VO 2 400 0 100 L 50 50 1 0 B
+X VI 3 -400 0 100 R 50 50 1 0 B
+ENDDRAW
+ENDDEF
+#
+# rolladen_relais-eagle-import_MKDSN1,5_3-5,08
+#
+DEF rolladen_relais-eagle-import_MKDSN1,5_3-5,08 X 0 40 Y Y 3 L N
+F0 "X" 120 -35 59 H V L BNN
+F1 "rolladen_relais-eagle-import_MKDSN1,5_3-5,08" -100 -145 59 H I L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+C 50 0 50 1 0 10 N
+C 50 0 50 1 0 10 N
+C 50 0 50 1 0 10 N
+C 50 0 50 2 0 10 N
+C 50 0 50 2 0 10 N
+C 50 0 50 2 0 10 N
+C 50 0 50 3 0 10 N
+C 50 0 50 3 0 10 N
+C 50 0 50 3 0 10 N
+X KL 1 -100 0 100 R 0 0 1 0 P
+X KL 2 -100 0 100 R 0 0 2 0 P
+X KL 3 -100 0 100 R 0 0 3 0 P
+ENDDRAW
+ENDDEF
+#
+# rolladen_relais-eagle-import_MKDSN1,5_4-5,08
+#
+DEF rolladen_relais-eagle-import_MKDSN1,5_4-5,08 X 0 40 Y Y 4 L N
+F0 "X" 120 -35 59 H V L BNN
+F1 "rolladen_relais-eagle-import_MKDSN1,5_4-5,08" -100 -145 59 H I L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+C 50 0 50 1 0 10 N
+C 50 0 50 1 0 10 N
+C 50 0 50 1 0 10 N
+C 50 0 50 2 0 10 N
+C 50 0 50 2 0 10 N
+C 50 0 50 2 0 10 N
+C 50 0 50 3 0 10 N
+C 50 0 50 3 0 10 N
+C 50 0 50 3 0 10 N
+C 50 0 50 4 0 10 N
+C 50 0 50 4 0 10 N
+C 50 0 50 4 0 10 N
+X KL 1 -100 0 100 R 0 0 1 0 P
+X KL 2 -100 0 100 R 0 0 2 0 P
+X KL 3 -100 0 100 R 0 0 3 0 P
+X KL 4 -100 0 100 R 0 0 4 0 P
+ENDDRAW
+ENDDEF
+#
+# rolladen_relais-eagle-import_MOUNT-HOLE3.2
+#
+DEF rolladen_relais-eagle-import_MOUNT-HOLE3.2 H 0 40 Y Y 1 L N
+F0 "H" 80 23 59 H V L BNN
+F1 "rolladen_relais-eagle-import_MOUNT-HOLE3.2" 80 -97 59 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+A 0 0 60 0 900 1 0 1 F 60 0 0 60
+A 0 0 60 1800 -900 1 0 1 F -60 0 0 -60
+C 0 0 20 1 0 2 N
+C 0 0 80 1 0 2 N
+P 2 1 0 0 -20 0 20 0 N
+P 2 1 0 0 0 20 0 -20 N
+ENDDRAW
+ENDDEF
+#
+# rolladen_relais-eagle-import_MW_IRM03MWIRM
+#
+DEF rolladen_relais-eagle-import_MW_IRM03MWIRM DC 0 40 Y Y 1 L N
+F0 "DC" 0 400 59 H V C TNN
+F1 "rolladen_relais-eagle-import_MW_IRM03MWIRM" 0 -400 59 H V C BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+T 0 0 -200 42 0 1 0 AC->DC Normal 0 C T
+P 2 1 0 0 -300 -300 -300 300 N
+P 2 1 0 0 -300 300 300 300 N
+P 2 1 0 0 300 -300 -300 -300 N
+P 2 1 0 0 300 300 300 -300 N
+X AC1 AC1 -500 100 200 R 50 50 1 0 W
+X AC2 AC2 -500 -100 200 R 50 50 1 0 W
+X +VO V+ 500 100 200 L 50 50 1 0 P
+X -VO V- 500 -100 200 L 50 50 1 0 P
+ENDDRAW
+ENDDEF
+#
+# rolladen_relais-eagle-import_PC817
+#
+DEF rolladen_relais-eagle-import_PC817 OK 0 40 Y Y 1 L N
+F0 "OK" -275 225 59 H V L BNN
+F1 "rolladen_relais-eagle-import_PC817" -275 -300 59 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -15 -100 15 100 1 0 0 F
+P 2 1 0 0 -275 -200 175 -200 N
+P 2 1 0 0 -275 200 -275 -200 N
+P 2 1 0 0 -275 200 175 200 N
+P 2 1 0 0 -175 -100 -300 -100 N
+P 2 1 0 0 -175 -50 -225 -50 N
+P 2 1 0 0 -175 -50 -225 50 N
+P 2 1 0 0 -175 -50 -175 -100 N
+P 2 1 0 0 -175 50 -225 50 N
+P 2 1 0 0 -175 50 -175 -50 N
+P 2 1 0 0 -175 100 -300 100 N
+P 2 1 0 0 -175 100 -175 50 N
+P 2 1 0 0 -125 -50 -175 -50 N
+P 2 1 0 0 -125 50 -175 -50 N
+P 2 1 0 0 -125 50 -175 50 N
+P 2 1 0 0 -100 0 -45 55 N
+P 2 1 0 0 -95 -45 -40 10 N
+P 2 1 0 0 -80 40 -60 20 N
+P 2 1 0 0 -75 -5 -55 -25 N
+P 2 1 0 0 -60 20 -45 55 N
+P 2 1 0 0 -55 -25 -40 10 N
+P 2 1 0 0 -45 55 -80 40 N
+P 2 1 0 0 -40 10 -75 -5 N
+P 2 1 0 0 0 0 90 -90 N
+P 2 1 0 0 40 -70 70 -40 N
+P 2 1 0 0 70 -40 90 -90 N
+P 2 1 0 0 90 -90 40 -70 N
+P 2 1 0 0 90 -90 100 -100 N
+P 2 1 0 0 100 -100 200 -100 N
+P 2 1 0 0 100 100 0 0 N
+P 2 1 0 0 100 100 200 100 N
+P 2 1 0 0 175 200 175 -200 N
+X A 1 -400 100 100 R 50 0 1 0 P
+X C 2 -400 -100 100 R 50 0 1 0 P
+X EMIT 3 300 -100 100 L 50 0 1 0 P
+X COL 4 300 100 100 L 50 0 1 0 P
+ENDDRAW
+ENDDEF
+#
+# rolladen_relais-eagle-import_PINHD-1X6
+#
+DEF rolladen_relais-eagle-import_PINHD-1X6 JP 0 40 Y Y 1 L N
+F0 "JP" -250 425 59 H V L BNN
+F1 "rolladen_relais-eagle-import_PINHD-1X6" -250 -400 59 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 0 0 -250 -300 50 -300 N
+P 2 1 0 0 -250 400 -250 -300 N
+P 2 1 0 0 50 -300 50 400 N
+P 2 1 0 0 50 400 -250 400 N
+X 1 1 -100 300 100 R 50 0 1 0 P I
+X 2 2 -100 200 100 R 50 0 1 0 P I
+X 3 3 -100 100 100 R 50 0 1 0 P I
+X 4 4 -100 0 100 R 50 0 1 0 P I
+X 5 5 -100 -100 100 R 50 0 1 0 P I
+X 6 6 -100 -200 100 R 50 0 1 0 P I
+ENDDRAW
+ENDDEF
+#
+# rolladen_relais-eagle-import_R-EU_0411_15
+#
+DEF rolladen_relais-eagle-import_R-EU_0411_15 R 0 40 Y Y 1 L N
+F0 "R" -150 59 59 H V L BNN
+F1 "rolladen_relais-eagle-import_R-EU_0411_15" -150 -130 59 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 0 0 -100 -35 -100 35 N
+P 2 1 0 0 -100 -35 100 -35 N
+P 2 1 0 0 100 -35 100 35 N
+P 2 1 0 0 100 35 -100 35 N
+X 1 1 -200 0 100 R 0 0 1 0 P
+X 2 2 200 0 100 L 0 0 1 0 P
+ENDDRAW
+ENDDEF
+#
+# rolladen_relais-eagle-import_RESISTOR_1_4W
+#
+DEF rolladen_relais-eagle-import_RESISTOR_1_4W R 0 40 Y Y 1 L N
+F0 "R" -150 59 59 H V L BNN
+F1 "rolladen_relais-eagle-import_RESISTOR_1_4W" -150 -130 59 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 0 0 -100 -35 -100 35 N
+P 2 1 0 0 -100 -35 100 -35 N
+P 2 1 0 0 100 -35 100 35 N
+P 2 1 0 0 100 35 -100 35 N
+X 1 1 -200 0 100 R 0 0 1 0 P
+X 2 2 200 0 100 L 0 0 1 0 P
+ENDDRAW
+ENDDEF
+#
+#End Library

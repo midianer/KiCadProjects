@@ -1,6 +1,0 @@
-(sym_lib_table
-  (lib (name Arduino)(type Legacy)(uri /home/guenter/KiCadProjekte/privat/library/kicad-lib-arduino/Arduino.lib)(options "")(descr ""))
-  (lib (name dds9833)(type Legacy)(uri ${KIPRJMOD}/dds9833.lib/dds9833.lib)(options "")(descr ""))
-  (lib (name dds9833-rescue)(type Legacy)(uri ${KIPRJMOD}/dds9833-rescue.lib)(options "")(descr ""))
-  (lib (name iblogo)(type Legacy)(uri ${LOCALREPO}/ibgk-lib/iblogo.lib)(options "")(descr ""))
-)

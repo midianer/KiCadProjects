@@ -1282,7 +1282,7 @@
     (property "Value" "470uF/25V" (id 1) (at 179.07 82.9309 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_THT:C_Radial_D8.0mm_H11.5mm_P3.50mm" (id 2) (at 176.2252 86.36 0)
+    (property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm" (id 2) (at 176.2252 86.36 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 175.26 82.55 0)
@@ -1359,7 +1359,7 @@
     (property "Value" "470uF/25V" (id 1) (at 214.63 82.9309 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_THT:C_Radial_D8.0mm_H11.5mm_P3.50mm" (id 2) (at 211.7852 86.36 0)
+    (property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm" (id 2) (at 211.7852 86.36 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 210.82 82.55 0)
@@ -1417,10 +1417,10 @@
       (reference "C102") (unit 1) (value "100nF") (footprint "00_footprints:C_Rect_L18.0mm_W9.0mm_P15.00mm_FKS3_FKP3")
     )
     (path "/a5f783e7-ea52-447e-bc98-90eb5ef612bc"
-      (reference "C103") (unit 1) (value "470uF/25V") (footprint "Capacitor_THT:C_Radial_D8.0mm_H11.5mm_P3.50mm")
+      (reference "C103") (unit 1) (value "470uF/25V") (footprint "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm")
     )
     (path "/c669eb71-27fc-474e-ad66-4f2f275532c7"
-      (reference "C104") (unit 1) (value "470uF/25V") (footprint "Capacitor_THT:C_Radial_D8.0mm_H11.5mm_P3.50mm")
+      (reference "C104") (unit 1) (value "470uF/25V") (footprint "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm")
     )
     (path "/6da15fb6-0bd3-45b0-b831-dbf332c93715"
       (reference "D101") (unit 1) (value "B40C2000RUND") (footprint "Diode_THT:Diode_Bridge_Round_D9.0mm")

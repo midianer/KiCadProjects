@@ -1,2 +1,2 @@
 # KiCadProjects
-Kicad projects
+Kicad project pwr_supply_2W

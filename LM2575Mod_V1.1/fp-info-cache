@@ -1,0 +1,116 @@
+23043793700977
+LM2575Mod_V1.1
+3,2
+<b>MOUNTING HOLE</b> 3.2 mm with drill center
+
+0
+0
+0
+LM2575Mod_V1.1
+0207_10
+<b>RESISTOR</b><p>
+type 0207, grid 10 mm
+
+0
+2
+2
+LM2575Mod_V1.1
+C050-025X075
+<b>CAPACITOR</b><p>
+grid 5 mm, outline 2.5 x 7.5 mm
+
+0
+2
+2
+LM2575Mod_V1.1
+DO35-10-1
+<B>DIODE</B><p>
+diameter 2 mm, horizontal, grid 10.16 mm
+
+0
+2
+2
+LM2575Mod_V1.1
+E5-8,5
+<b>ELECTROLYTIC CAPACITOR</b><p>
+grid 5.08 mm, diameter 8.5 mm
+
+0
+2
+2
+LM2575Mod_V1.1
+EI30-1
+<b>TRANSFORMER</b><p>
+1 primary winding, 1 secondary winding
+
+0
+6
+6
+LM2575Mod_V1.1
+EI38-1
+<b>TRANSFORMER</b><p>
+1 primary winding, 1 secondary winding
+
+0
+6
+6
+LM2575Mod_V1.1
+EI48-1
+<b>TRANSFORMER</b><p>
+1 primary winding, 1 secondary winding
+
+0
+6
+6
+LM2575Mod_V1.1
+EI54-1
+<b>TRANSFORMER</b><p>
+1 primary winding, 1 secondary winding
+
+0
+6
+6
+LM2575Mod_V1.1
+KBU
+<b>DIOTEC RECTIFIER</b>
+
+0
+4
+4
+LM2575Mod_V1.1
+MKDSN1,5_2-5,08
+<b>MKDSN 1,5/ 2-5,08</b> Printklemme<p>
+Nennstrom: 13,5 A<br>
+Nennspannung: 250 V<br>
+Rastermaß: 5,08 mm<br>
+Polzahl: 2<br>
+Anschlussart: Schraubanschluss<br>
+Montage: Löten<br>
+Anschlussrichtung Leiter/Platine: 0 °<br>
+Artikelnummer: 1729128<br>
+Source: http://eshop.phoenixcontact.com .. 1729128.pdf
+
+0
+2
+2
+LM2575Mod_V1.1
+PIS4728
+
+
+0
+2
+2
+LM2575Mod_V1.1
+PN87520
+<b>USB connector</b>
+
+0
+5
+4
+LM2575Mod_V1.1
+TO220-5
+
+
+0
+5
+5

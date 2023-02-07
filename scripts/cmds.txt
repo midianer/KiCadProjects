@@ -1,0 +1,26 @@
+cd ~/KiCadProjekte/QControlPrj/QLed/scripts/
+
+git push -u origin project/QLed
+
+zip -r QLedPrj_2022-08-25.zip  QLedPrj/
+zip -r QLedPrj_2022-08-30.zip  QLed/SchemaPDF/ QLed/QLed.step QLed/QLed.csv
+
+
+python3 ../scripts/footp_ref.py QLed.kicad_pcb 1000000 150000
+
+python3 ../scripts/footp_ref.py QLed.kicad_pcb 1000000 150000
+
+meld test.kicad_pcb QLed.kicad_pcb
+
+
+###python3 "/usr/share/kicad/plugins/bom_csv_grouped_by_value_with_fp.py" "/home/guenter/KiCad/KicCad/tula_ctrl_ccu6_v01/tula_ctrl_ccu6_v01.xml" "/home/guenter/KiCad/KicCad/tula_ctrl_ccu6_v01/tula_ctrl_ccu6_v01.csv"
+
+meld ~/KiCadProjekte/QControlPrj/QControl  ~/KiCadProjekte/QControlPrj/QLed &
+meld ~/KiCadProjekte/QControlPrj/QControl/QControl  ~/KiCadProjekte/QControlPrj/QLed/QLed &
+
+
+git tag -a Rev1 -m "QLed Manufacturing Rev1"
+git push origin Rev1
+
+git tag -a QLed_Rev1 -m "QLed Manufacturing Rev1"
+git push origin QLed_Rev1

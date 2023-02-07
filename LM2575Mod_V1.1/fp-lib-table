@@ -1,3 +1,0 @@
-(fp_lib_table
-  (lib (name LM2575Mod_V1.1)(type KiCad)(uri "$(KIPRJMOD)/LM2575Mod_V1.1.pretty")(options "")(descr ""))
-)

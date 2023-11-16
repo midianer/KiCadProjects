@@ -1,0 +1,27 @@
+xfce4-terminal --working-directory /media/guenter/e2f635ed-b259-42b1-a74a-a11918905714/Kicad6Projekte/amp_supply_hv
+
+cd /media/guenter/e2f635ed-b259-42b1-a74a-a11918905714/Kicad6Projekte/amp_supply_hv
+
+
+meld amp_supply_hv.kicad_pcb test.kicad_pcb
+
+python3 scripts/footp_ref.py amp_supply_hv.kicad_pcb
+
+meld /media/guenter/e2f635ed-b259-42b1-a74a-a11918905714/Kicad6Projekte/amp_supply_hv ~/rstest/KiCadProjekte/privat/amp_supply_hv
+
+
+
+
+
+
+rsync -a guenter@192.168.0.16:~/KiCadProjekte .
+
+
+
+
+
+
+
+
+
+
